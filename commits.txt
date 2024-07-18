@@ -1,0 +1,4 @@
+docker build -t my-node-app .
+docker run -p 3000:3000 my-node-app
+docker ps    #It shows running containers
+docker images  #It shows images which are build in the machine
